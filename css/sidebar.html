@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+.sidebar {
+  width: 200px;
+  height: 100%;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.sidebar h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+}
+
+.sidebar li a {
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar li a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+
+    </style>
+</head>
+<body>
+    
+
+
+    <div class="sidebar">
+        <h2>Menu</h2>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Products</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+
+
+      <script>
+
+        // Toggle sidebar visibility
+const toggleSidebar = () => {
+  const sidebar = document.querySelector('.sidebar');
+  sidebar.classList.toggle('visible');
+}
+
+// Add event listener to toggle button
+const toggleButton = document.querySelector('#toggle-button');
+toggleButton.addEventListener('click', toggleSidebar);
+
+      </script>
+
+
+
+</body>
+</html>
