@@ -171,6 +171,8 @@ include("../Functions/functions.php");
 			margin-right: 0;
 		}
 
+		
+
 		@media only screen and (min-device-width:320px) and (max-device-width:480px) {
 			/* .mycarousel {
             display: none;
@@ -246,13 +248,13 @@ include("../Functions/functions.php");
 
 <body>
 
-	<main class="my-form">
-		<div class="cotainer">
+	<main class="my-form mt-5">
+		<div class="cotainer mt-5">
 			<div class="row justify-content-center">
-				<div class="col-md-8">
+				<div class="col-md-7 mt-5">
 					<div class="card " >
-						<div class="card-header text-left" style="background-color:#292b2c">
-							<h4  style="font-style:bold;color:goldenrod;text-align:left">Login</h4>
+						<div class="card-header text-left" style="background-color:#1d4c29">
+							<h4  style="font-style:bold;color:white;text-align:left">Login</h4>
 						</div>
 						<div class="card-body border border-dark">
 							<form name="my-form" action="FarmerLogin.php" method="post">
@@ -272,7 +274,7 @@ include("../Functions/functions.php");
 								</div>
 
 								<div class="col-md-6 offset-md-4">
-									<button type="submit" class="btn btn-primary text-left border border-dark" style="background-color:#292b2c;color:goldenrod" name="login" value="Login">
+									<button type="submit" class="btn btn-primary text-left border border-dark" style="background-color:#1d4c29;color:white" name="login" value="Login">
 										Login
 									</button>
 								</div>

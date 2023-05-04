@@ -88,7 +88,7 @@ include("../Functions/functions.php");
           .loginz {
                float: right;
                margin-right: 20px;
-               margin-top: 20px;
+               margin-top: 10px;
           }
 
           .headerdown {
@@ -728,30 +728,42 @@ include("../Functions/functions.php");
 </head>
 
 <body>
-     <nav class="navbar navbar-expand-xl ">
-          <!-- <a href="#" class="navbar-brand">Academind</a> -->
-          <div class=" flex-row-reverse left ">
+<nav class="navbar navbar-expand-xl ">
+               <!-- <a href="#" class="navbar-brand">Academind</a> -->
+               <div class=" flex-row-reverse left ">
 
-               <div class="p-2">
-                    <!-- <div class="icon2">
+                    <div class="p-2">
+                         <!-- <div class="icon2">
                     <a href="CartPage.php"> <i class="fa" style=" color:green ;font-size:20px;margin-top:-20px;margin-bottom:20px;">&#61562;</i></a> -->
-                    <!-- <span id="icon" style="color:green"> 5 </span>
+                         <!-- <span id="icon" style="color:green"> 5 </span>
                 </div>  -->
-               </div>
-               <!-- <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;'></i></div> -->
-               <a class="float-left" href="#">
-                    <img src="agro.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
-               </a>
-          </div>
-          <button class="navbar-toggler" data-toggle="collapse" style="margin-left:-20px;" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;font-size:20px; "></i></span>
-          </button>
-          <a class="float-left" href="farmerHomepage.php">
-               <img src="agro.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
-          </a>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    </div>
+                    <!-- <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;'></i></div> -->
+                    <a class="float-left" href="#">
+                          <img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;">
+                     </a>
+                </div>
+                <button class="navbar-toggler" data-toggle="collapse" style="margin-left:-20px;" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                     <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;font-size:20px; "></i></span>
+                </button>
+                <a class="float-left" href="farmerHomepage.php">
+                     <img src="../img/logo.png" class="float-left mr-2 moblogo" alt="Logo" style="height:60px;">
+                </a>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-
+   
+               <div class="row" style="text-align:center; ">
+                <div class="col-md-3 col-sm-12">
+                     <a href="farmerHomepage.php" id="navbar"><label>Home</label></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                     <a href="MyProducts.php" id="navbar"><label>Products</label></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                     <a href="Transactions.php" id="navbar"><label>Transactions</label></a>
+                </div>
+            
+           </div>
 
                <div class="proicon">
 
@@ -794,8 +806,8 @@ include("../Functions/functions.php");
                     </div>
                </div>
                <div class="dropdown p-2 settings ">
-                    <button class="btn  dropdown-toggle text-success" style="margin-top:-20px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                         Settings
+                    <button class="btn  dropdown-toggle text-success" style="margin-top:-10px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Menu
                     </button>
                     <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                          <?php
@@ -899,8 +911,9 @@ include("../Functions/functions.php");
                                              </div>
 
                                              <div class='row' style='padding:7px; margin-bottom:15px;' >
-                                                  <div class='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 aligncenter'> <a href='EditProduct.php?id=$prod_id' class='btn btn-warning border-secondary' style='color:black'><b>Edit Product</b></a></div>
-                                                  <div class='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 aligncenter'> <a href='Transactions.php' class='btn btn-warning border-secondary' style='color:black'><b>My Transaction</b></a></div>
+                                    
+                                                  
+                                                   <div class='col-12 col-xl-6 col-lg-6 col-md-6 col-sm-12 aligncenter'> <a href='Transactions.php' class='btn btn-warning border-secondary' style='color:black'><b>My Transaction</b></a></div>
                                              </div>
                                         </div>         
                                    </div>
@@ -930,37 +943,31 @@ include("../Functions/functions.php");
 
 
      <br><br>
+   
      <section id="footer" class="myfooter">
-          <div class="container">
-               <div class="row text-center text-xs-center text-sm-left text-md-left">
-                    <div class="col aligncenter">
-                         <br>
-                         <h5>Payment Option</h5>
-                         <img src="../Images/Website/paytm1.jpg" alt="paytm">
-                         <img src="../Images/Website/cod.jpg" alt="paytm" style="height:37px">
-                    </div>
-               </div>
-               <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                         <ul class="list-unstyled list-inline social text-center">
-                              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-                              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-                              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-                              <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-                              <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                         </ul>
-                    </div>
+                <div class="container">
+                  
+                     <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                               <ul class="list-unstyled list-inline social text-center">
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                               </ul>
+                          </div>
 
-               </div>
-               <div class="row">
-                    <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                         <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                         <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
-                    </div>
-                    </hr>
-               </div>
-          </div>
-     </section>
+                     </div>
+                     <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+                              
+                               <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Seed</a></p>
+                          </div>
+                          </hr>
+                     </div>
+                </div>
+           </section>
 
 </body>
 

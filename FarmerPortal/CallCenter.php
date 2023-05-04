@@ -902,14 +902,14 @@
                     </div>
                     <!-- <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;'></i></div> -->
                     <a class="float-left" href="#">
-                         <img src="agro.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
+                         <img src="logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
                     </a>
                </div>
                <button class="navbar-toggler" data-toggle="collapse" style="margin-left:-20px;" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;font-size:20px; "></i></span>
                </button>
                <a class="float-left" href="farmerHomepage.php">
-                    <img src="agro.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
+                    <img src="logo.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
                </a>
                <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -1175,8 +1175,8 @@
                     </div>
                     <div class="row">
                          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                              <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                              <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
+                              <p><u><a href="/" style="color:white">SEED</a></u> is a Multitrading Company for farmers ang traders</p>
+                              <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">SEED</a></p>
                          </div>
                          </hr>
                     </div>

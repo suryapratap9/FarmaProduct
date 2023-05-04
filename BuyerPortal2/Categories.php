@@ -508,14 +508,14 @@ include("../Functions/functions.php");
     </div>
     <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;margin-top:2px;'></i></div>
     <a class="float-left" href="bhome.php">
-        <img src="agro.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
+    <!-- <img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;"> -->
     </a>
 </div>
 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;margin-right:-9%;font-size:28px;"></i></span>
 </button>
 <a class="float-left" href="bhome.php">
-    <img src="agro.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
+<img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;">
 </a>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -560,16 +560,16 @@ include("../Functions/functions.php");
     </div>
     <div class="dropdown p-2 settings ">
         <button class="btn  dropdown-toggle text-success" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Settings
+          Menu
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <?php
             if (isset($_SESSION['phonenumber'])) {
                 echo "<a href='BuyerProfile2.php' class='dropdown-item  ' style='padding-right:-20px;'>Profile</a>";
                 echo "<a href='Transaction.php' class='dropdown-item ' style='padding-right:-20px;'>Transactions</a>";
-                echo "<a href='#' class='dropdown-item'  style='padding-right:-20px;'>Subscriptions</a>";
-                echo "<a href='saveforlater.php' class='dropdown-item' style='padding-right:-20px;'>Save For Later</a>";
-                echo "<a href='farmers.php' class='dropdown-item' style='padding-right:-20px;' >Farmers</a>";
+                // echo "<a href='#' class='dropdown-item'  style='padding-right:-20px;'>Subscriptions</a>";
+                // echo "<a href='saveforlater.php' class='dropdown-item' style='padding-right:-20px;'>Save For Later</a>";
+                // echo "<a href='farmers.php' class='dropdown-item' style='padding-right:-20px;' >Farmers</a>";
                 echo "<a href='../Includes/logout.php' class='dropdown-item ' style='padding-right:-20px;'>Logout</a>";
             } else {
                 echo "<a href='../auth/BuyerLogin.php' class='dropdown-item ' style='padding-right:-20px;'>Login</a>";
@@ -630,7 +630,7 @@ include("../Functions/functions.php");
 
 
 
-     <form action="" method="post">
+     <!-- <form action="" method="post">
           <div class="container">
                <div class="row   p-2">
                     <div class="col-12 col-xl-3 col-lg-3 col-md-12 col-sm-12">
@@ -684,16 +684,6 @@ include("../Functions/functions.php");
                          </select>
                     </div>
                     <div class="col-6 col-xl-3 col-lg-3 col-md-6 col-sm-6 districts">
-                         <!-- <div class="dropdown">
-                         <button class="btn btn-green mybtn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              <b>Districts</b>
-                         </button>
-                         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                              <a class="dropdown-item" href="#">Patato</a>
-                              <a class="dropdown-item" href="#">Carrot</a>
-                              <a class="dropdown-item" href="#">Onion</a>
-                         </div>
-                    </div> -->
                          <select class="p-2 ml-5 shadow-lg" name="districtInput" id="district" style="border-radius: 6px; border-color: #FFD700 ">
                               <option>Select District</option>
                          </select>
@@ -706,23 +696,23 @@ include("../Functions/functions.php");
 
           </div>
           </div>
-     </form>
-     <?php
-     if (isset($_POST['go'])) {
-          $districtInput = $_POST['districtInput'];
-          $stateInput = $_POST['stateInput'];
-          echo $stateInput;
-          echo "<br>";
-          echo $districtInput;
+     </form> -->
+     <!-- php  sign lagana h-->
+     <!-- // if (isset($_POST['go'])) {
+     //      $districtInput = $_POST['districtInput'];
+     //      $stateInput = $_POST['stateInput'];
+     //      echo $stateInput;
+     //      echo "<br>";
+     //      echo $districtInput;
 
-          if ($stateInput != '0' && $districtInput == 'Select District') {
-               echo "<script>window.open('StateSearch.php?state=$stateInput','_self')</script>";
-          } else {
-               echo "<script>window.open('DistrictSearch.php?district=$districtInput','_self')</script>";
-          }
-     }
+     //      if ($stateInput != '0' && $districtInput == 'Select District') {
+     //           echo "<script>window.open('StateSearch.php?state=$stateInput','_self')</script>";
+     //      } else {
+     //           echo "<script>window.open('DistrictSearch.php?district=$districtInput','_self')</script>";
+     //      }
+     // }
 
-     ?>
+     // -->
 
 
 
@@ -853,10 +843,8 @@ include("../Functions/functions.php");
           <div class="container">
                <div class="row text-center text-xs-center text-sm-left text-md-left">
                     <div class="col aligncenter">
-                         <br>
-                         <h5>Payment Option</h5>
-                         <img src="../Images/Website/paytm1.jpg" alt="paytm">
-                         <img src="../Images/Website/cod.jpg" alt="paytm" style="height:37px">
+                      
+                      
                     </div>
                </div>
                <div class="row">
@@ -873,8 +861,8 @@ include("../Functions/functions.php");
                </div>
                <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                         <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                         <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
+                        
+                         <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Seed</a></p>
                     </div>
                     </hr>
                </div>

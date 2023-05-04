@@ -426,6 +426,242 @@ include("../Functions/functions.php");
                 max-width: 100%;
             }
         } */
+        
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: #00a01d;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.site-heading h4::before {
+  background: #00a01d none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+
+.carousel-shadow .owl-stage-outer {
+  margin: -15px -15px 0;
+  padding: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
+  background: #ffffff none repeat scroll 0 0;
+  border: 2px solid;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
+  background: #00a01d none repeat scroll 0 0;
+  border-color: #00a01d;
+}
+
+.we-offer-area .item {
+  background: #ffffff none repeat scroll 0 0;
+  border-left: 2px solid #00a01d;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -o-box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.we-offer-area.text-center .item {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .item i {
+  background: #00a01d none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  text-align: center;
+  width: 80px;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.we-offer-area.text-center .item i::after {
+  border: 2px solid #00a01d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 90px;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 90px;
+  z-index: -1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area.item-border-less .item {
+  border: medium none;
+}
+
+.we-offer-area .our-offer-items.less-carousel .equal-height {
+  margin-bottom: 30px;
+}
+
+.we-offer-area.item-border-less .item .number {
+  font-family: "Poppins",sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 0.1;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
+.we-offer-area.center-active .single-item:nth-child(2n) .item {
+  background: #00a01d none repeat scroll 0 0;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item h4,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item p,
+.we-offer-area.center-active .single-item:nth-child(2n) .item i,
+.we-offer-area.center-active .single-item:nth-child(2n) .item h4,
+.we-offer-area.center-active .single-item:nth-child(2n) .item p {
+  color: #ffffff;
+}
+
+.we-offer-area .item i {
+  color: #00a01d;
+  display: inline-block;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.we-offer-area .item h4 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.we-offer-area .item p {
+  margin: 0;
+}
+
+.we-offer-area .item i,
+.we-offer-area .item h4,
+.we-offer-area .item p {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area .item::after {
+  background: #00a01d none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  width: 100%;
+  z-index: -1;
+}
+
+.we-offer-area .item:hover::after {
+  left: 0;
+}
+
+.we-offer-area .item:hover i,
+.we-offer-area .item:hover h4,
+.we-offer-area .item:hover p {
+  color: #ffffff !important;
+}
+
+.we-offer-area.text-center .item:hover i::after {
+  border-color: #ffffff !important;
+}
+
+.we-offer-area.text-center .item:hover i {
+  background-color: #ffffff !important;
+  color: #00a01d !important;
+}
+
+.we-offer-area.text-left .item i {
+  background: #00a01d none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+
+.we-offer-area.text-left .item i::after {
+  border: 2px solid #00a01d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 120px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 120px;
+}
     </style>
     <!-- <script>
         var a;
@@ -461,14 +697,14 @@ include("../Functions/functions.php");
             </div>
             <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;margin-top:2px;'></i></div>
             <a class="float-left" href="bhome.php">
-                <img src="agro.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
+            <!-- <img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;"> -->
             </a>
         </div>
         <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;margin-right:-9%;font-size:28px;"></i></span>
         </button>
         <a class="float-left" href="bhome.php">
-            <img src="agro.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
+        <img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;">
         </a>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -513,16 +749,16 @@ include("../Functions/functions.php");
             </div>
             <div class="dropdown p-2 settings ">
                 <button class="btn  dropdown-toggle text-success" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Settings
+                  Menu
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                     <?php
                     if (isset($_SESSION['phonenumber'])) {
                         echo "<a href='BuyerProfile2.php' class='dropdown-item  ' style='padding-right:-20px;'>Profile</a>";
                         echo "<a href='Transaction.php' class='dropdown-item ' style='padding-right:-20px;'>Transactions</a>";
-                        echo "<a href='#' class='dropdown-item'  style='padding-right:-20px;'>Subscriptions</a>";
-                        echo "<a href='saveforlater.php' class='dropdown-item' style='padding-right:-20px;'>Save For Later</a>";
-                        echo "<a href='farmers.php' class='dropdown-item' style='padding-right:-20px;' >Farmers</a>";
+                        // echo "<a href='#' class='dropdown-item'  style='padding-right:-20px;'>Subscriptions</a>";
+                        // echo "<a href='saveforlater.php' class='dropdown-item' style='padding-right:-20px;'>Save For Later</a>";
+                        // echo "<a href='farmers.php' class='dropdown-item' style='padding-right:-20px;' >Farmers</a>";
                         echo "<a href='../Includes/logout.php' class='dropdown-item ' style='padding-right:-20px;'>Logout</a>";
                     } else {
                         echo "<a href='../auth/BuyerLogin.php' class='dropdown-item ' style='padding-right:-20px;'>Login</a>";
@@ -536,7 +772,7 @@ include("../Functions/functions.php");
         </div>
 
     </nav>
-
+<!-- 
 
     <div class="container">
         <div class="d-flex justify-content-around bg-white mb-3">
@@ -578,114 +814,136 @@ include("../Functions/functions.php");
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
 
 
-
+<!-- 
     <div class="container"> <img src="b4.jpeg" class="img-fluid firstimage d-block mx-auto" alt="Responsive image">
-    </div>
+    </div> -->
     <br>
     <br>
 
 
-    <div class="container">
-        <div class="text-center">
-            <!-- <h2 id="headings" class="destext">Fresh fruits</h2> -->
-            <h1 id="headings" class="guard"><span><b>Fresh Fruits </b></span>
-            </h1>
-        </div>
-
-        <hr>
-
-        <div class="row BigBox">
-
-            <?php
-            getFruitsHomepage();
-            ?>
-
-            <hr>
-        </div>
-        <hr>
-    </div>
-    <br><br>
 
 
-    <div class="container">
-        <div class="text-center">
-            <!-- <h2 id="headings" class="destext">Fresh fruits</h2> -->
-            <h1 id="headings" class="guard"><span><b>Fresh Vegetables </b></span>
-            </h1>
-        </div>
-
-        <hr>
-
-        <div class="row BigBox">
-
-            <?php
-            getVegetablesHomepage();
-            ?>
-
-            <hr>
-        </div>
-        <hr>
-    </div>
-    <br><br>
-
-    <div class="container">
-
-        <div class="text-center">
-            <h1 id="headings" class="longguard"><span><b>Best Selling Products All Over India </b></span>
-            </h1>
-        </div>
-        <br>
-        <div class="row">
-            <?php
-            cart();
-            getProducts();
-            ?>
-        </div>
-        <br><br>
-
-
-    </div>
-    </div>
-
-
-
-    <!-- footer -->
-    <section id="footer" class="myfooter">
+    <section class="we-offer-area text-center bg-gray">
         <div class="container">
-            <div class="row text-center text-xs-center text-sm-left text-md-left">
-                <div class="col aligncenter">
-                    <br>
-                    <h5>Payment Option</h5>
-                    <img src="../Images/Website/paytm1.jpg" alt="paytm">
-                    <img src="../Images/Website/cod.jpg" alt="paytm" style="height:37px">
-                </div>
-            </div>
             <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
-                    <ul class="list-unstyled list-inline social text-center">
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
-                        <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
-                    </ul>
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2> <span> What we Offer</span></h2>
+                        <h4>We Cultivate Excellence</h4>
+                    </div>
                 </div>
-                </hr>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                    <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                    <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
+                <div class="row our-offer-items less-carousel">
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-pen-fancy"></i>
+                            <h4>Agri Education</h4>
+                            <p>
+                            Provide access to educational resources  such as  training courses.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-dharmachakra"></i>
+                            <h4>Schemes and subsidies</h4>
+                            <p>
+                                Encourage various aspects of subsidies .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-tasks"></i>
+                            <h4>Online marketplace</h4>
+                            <p>
+                                Provide a great Platform for farmers and buyers to sell and buy.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <h4>Agri consultation</h4>
+                            <p>
+                            offer  services to help farmers increase  yields, improve soil fertility... 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-recycle"></i>
+                            <h4>Real time data Update</h4>
+                            <p>
+                                Real time data is updated here with zero errors.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-headset"></i>
+                            <h4>24/7 Support</h4>
+                            <p>
+                               We Provide 24*7 support with our helpline.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
                 </div>
-                </hr>
-            </div>
         </div>
-    </section>
+    </section> 
+
+
+     
+
+
+
+           <br> <br>
+           <section id="footer" class="myfooter">
+                <div class="container">
+                  
+                     <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                               <ul class="list-unstyled list-inline social text-center">
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-facebook"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-twitter"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-instagram"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();"><i class="fa fa-google-plus"></i></a></li>
+                                    <li class="list-inline-item"><a href="javascript:void();" target="_blank"><i class="fa fa-envelope"></i></a></li>
+                               </ul>
+                          </div>
+
+                     </div>
+                     <div class="row">
+                          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+                              
+                               <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Seed</a></p>
+                          </div>
+                          </hr>
+                     </div>
+                </div>
+           </section>
     <!-- ./Footer a ,myfooter,aligncenter-->
 </body>
 

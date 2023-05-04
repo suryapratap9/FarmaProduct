@@ -291,7 +291,6 @@
 
 
 
-
   <nav class="navbar navbar-expand-xl ">
 
 <div class=" flex-row-reverse left ">
@@ -304,14 +303,14 @@
     </div>
     <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;margin-top:2px;'></i></div>
     <a class="float-left" href="bhome.php">
-        <img src="agro.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
+    <!-- <img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;"> -->
     </a>
 </div>
 <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;margin-right:-9%;font-size:28px;"></i></span>
 </button>
 <a class="float-left" href="bhome.php">
-    <img src="agro.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
+<img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;">
 </a>
 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
@@ -356,16 +355,16 @@
     </div>
     <div class="dropdown p-2 settings ">
         <button class="btn  dropdown-toggle text-success" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            Settings
+          Menu
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
             <?php
             if (isset($_SESSION['phonenumber'])) {
                 echo "<a href='BuyerProfile2.php' class='dropdown-item  ' style='padding-right:-20px;'>Profile</a>";
                 echo "<a href='Transaction.php' class='dropdown-item ' style='padding-right:-20px;'>Transactions</a>";
-                echo "<a href='#' class='dropdown-item'  style='padding-right:-20px;'>Subscriptions</a>";
-                echo "<a href='saveforlater.php' class='dropdown-item' style='padding-right:-20px;'>Save For Later</a>";
-                echo "<a href='farmers.php' class='dropdown-item' style='padding-right:-20px;' >Farmers</a>";
+                // echo "<a href='#' class='dropdown-item'  style='padding-right:-20px;'>Subscriptions</a>";
+                // echo "<a href='saveforlater.php' class='dropdown-item' style='padding-right:-20px;'>Save For Later</a>";
+                // echo "<a href='farmers.php' class='dropdown-item' style='padding-right:-20px;' >Farmers</a>";
                 echo "<a href='../Includes/logout.php' class='dropdown-item ' style='padding-right:-20px;'>Logout</a>";
             } else {
                 echo "<a href='../auth/BuyerLogin.php' class='dropdown-item ' style='padding-right:-20px;'>Login</a>";
@@ -408,10 +407,7 @@
             <div class="container">
                  <div class="row text-center text-xs-center text-sm-left text-md-left">
                       <div class="col aligncenter">
-                           <br>
-                           <h4>Payment Option</h4>
-                           <img src="../Images/Website/paytm1.jpg" alt="paytm">
-                           <img src="../Images/Website/cod.jpg" alt="paytm" style="height:37px">
+                      
                       </div>
                  </div>
                  <div class="row">
@@ -428,8 +424,7 @@
                  </div>
                  <div class="row">
                       <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                           <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                           <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
+                           <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Seed</a></p>
                       </div>
                       </hr>
                  </div>

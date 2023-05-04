@@ -92,7 +92,7 @@
            .loginz {
                 float: right;
                 margin-right: 20px;
-                margin-top: 20px;
+                margin-top: 12px;
            }
 
            .headerdown {
@@ -845,6 +845,260 @@
 
 
            }
+
+
+  /* section {
+    padding: 60px 0;
+    min-height: 100vh;
+} */
+/* a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    outline: none;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}.bg-gray {
+    background-color: #f9f9f9;
+} */
+
+.site-heading h2 {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.site-heading h2 span {
+  color: #00a01d;
+}
+
+.site-heading h4 {
+  display: inline-block;
+  padding-bottom: 20px;
+  position: relative;
+  text-transform: capitalize;
+  z-index: 1;
+}
+
+.site-heading h4::before {
+  background: #00a01d none repeat scroll 0 0;
+  bottom: 0;
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -25px;
+  position: absolute;
+  width: 50px;
+}
+
+.site-heading {
+  margin-bottom: 60px;
+  overflow: hidden;
+  margin-top: -5px;
+}
+
+.carousel-shadow .owl-stage-outer {
+  margin: -15px -15px 0;
+  padding: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot span {
+  background: #ffffff none repeat scroll 0 0;
+  border: 2px solid;
+  height: 15px;
+  margin: 0 5px;
+  width: 15px;
+}
+
+.we-offer-area .our-offer-carousel .owl-dots .owl-dot.active span {
+  background: #00a01d none repeat scroll 0 0;
+  border-color: #00a01d;
+}
+
+.we-offer-area .item {
+  background: #ffffff none repeat scroll 0 0;
+  border-left: 2px solid #00a01d;
+  -moz-box-shadow: 0 0 10px #cccccc;
+  -webkit-box-shadow: 0 0 10px #cccccc;
+  -o-box-shadow: 0 0 10px #cccccc;
+  box-shadow: 0 0 10px #cccccc;
+  overflow: hidden;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+.we-offer-area.text-center .item {
+  background: #ffffff none repeat scroll 0 0;
+  border: medium none;
+  padding: 67px 40px 64px;
+}
+
+.we-offer-area.text-center .item i {
+  background: #00a01d none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  font-size: 40px;
+  height: 80px;
+  line-height: 80px;
+  position: relative;
+  text-align: center;
+  width: 80px;
+  z-index: 1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.we-offer-area.text-center .item i::after {
+  border: 2px solid #00a01d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 90px;
+  left: -5px;
+  position: absolute;
+  top: -5px;
+  width: 90px;
+  z-index: -1;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area.item-border-less .item {
+  border: medium none;
+}
+
+.we-offer-area .our-offer-items.less-carousel .equal-height {
+  margin-bottom: 30px;
+}
+
+.we-offer-area.item-border-less .item .number {
+  font-family: "Poppins",sans-serif;
+  font-size: 50px;
+  font-weight: 900;
+  opacity: 0.1;
+  position: absolute;
+  right: 30px;
+  top: 30px;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item,
+.we-offer-area.center-active .single-item:nth-child(2n) .item {
+  background: #00a01d none repeat scroll 0 0;
+}
+
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item i,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item h4,
+.our-offer-carousel.center-active .owl-item:nth-child(2n) .item p,
+.we-offer-area.center-active .single-item:nth-child(2n) .item i,
+.we-offer-area.center-active .single-item:nth-child(2n) .item h4,
+.we-offer-area.center-active .single-item:nth-child(2n) .item p {
+  color: #ffffff;
+}
+
+.we-offer-area .item i {
+  color: #00a01d;
+  display: inline-block;
+  font-size: 60px;
+  margin-bottom: 20px;
+}
+
+.we-offer-area .item h4 {
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.we-offer-area .item p {
+  margin: 0;
+}
+
+.we-offer-area .item i,
+.we-offer-area .item h4,
+.we-offer-area .item p {
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+}
+
+.we-offer-area .item::after {
+  background: #00a01d none repeat scroll 0 0;
+  content: "";
+  height: 100%;
+  left: -100%;
+  position: absolute;
+  top: 0;
+  transition: all 0.35s ease-in-out;
+  -webkit-transition: all 0.35s ease-in-out;
+  -moz-transition: all 0.35s ease-in-out;
+  -ms-transition: all 0.35s ease-in-out;
+  -o-transition: all 0.35s ease-in-out;
+  width: 100%;
+  z-index: -1;
+}
+
+.we-offer-area .item:hover::after {
+  left: 0;
+}
+
+.we-offer-area .item:hover i,
+.we-offer-area .item:hover h4,
+.we-offer-area .item:hover p {
+  color: #ffffff !important;
+}
+
+.we-offer-area.text-center .item:hover i::after {
+  border-color: #ffffff !important;
+}
+
+.we-offer-area.text-center .item:hover i {
+  background-color: #ffffff !important;
+  color: #00a01d !important;
+}
+
+.we-offer-area.text-left .item i {
+  background: #00a01d none repeat scroll 0 0;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  color: #ffffff;
+  display: inline-block;
+  font-size: 60px;
+  height: 100px;
+  line-height: 100px;
+  margin-bottom: 30px;
+  position: relative;
+  width: 100px;
+  z-index: 1;
+  text-align: center;
+}
+
+.we-offer-area.text-left .item i::after {
+  border: 2px solid #00a01d;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  content: "";
+  height: 120px;
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: 120px;
+}
+ 
       </style>
 
  </head>
@@ -869,18 +1123,29 @@
                      </div>
                      <!-- <div class="p-2 ml-5"><i class='far fa-user-circle' style='font-size:30px; color: green;'></i></div> -->
                      <a class="float-left" href="#">
-                          <img src="agro.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:50px;">
+                          <img src="../img/logo.png" class="float-left mr-5 ml-0 " alt="Logo" style="height:60px;">
                      </a>
                 </div>
                 <button class="navbar-toggler" data-toggle="collapse" style="margin-left:-20px;" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                      <span class="navbar-toggler-icon"><i class="fas fa-bars p-1 " style="color:green;font-size:20px; "></i></span>
                 </button>
                 <a class="float-left" href="farmerHomepage.php">
-                     <img src="agro.png" class="float-left mr-2 moblogo" alt="Logo" style="height:50px;">
+                     <img src="../img/logo.png" class="float-left mr-2 moblogo" alt="Logo" style="height:60px;">
                 </a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-
+           <div class="row" style="text-align:center; ">
+                <div class="col-md-3 col-sm-12">
+                     <a href="farmerHomepage.php" id="navbar"><label>Home</label></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                     <a href="MyProducts.php" id="navbar"><label>Products</label></a>
+                </div>
+                <div class="col-md-3 col-sm-12">
+                     <a href="Transactions.php" id="navbar"><label>Transactions</label></a>
+                </div>
+            
+           </div>
 
                      <div class="proicon">
 
@@ -892,6 +1157,8 @@
                      </div>
 
                      <div class="list-group moblists">
+                  
+      
 
                           <?php
                               if (isset($_SESSION['phonenumber'])) {
@@ -923,8 +1190,8 @@
                           </div>
                      </div>
                      <div class="dropdown p-2 settings ">
-                          <button class="btn  dropdown-toggle text-success" style="margin-top:-20px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               Settings
+                          <button class="btn  dropdown-toggle text-success" style="margin-top:-10px;" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Menu
                           </button>
                           <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                                <?php
@@ -940,50 +1207,8 @@
                      </div>
                 </div>
            </nav>
-           <br>
-           <div class="row" style="text-align:center;">
-                <div class="col-md-3 col-sm-12">
-                     <a href="farmerHomepage.php" id="navbar"><i class="fa fa-home" aria-hidden="true"></i><label>Home</label></a>
-                </div>
-                <div class="col-md-3 col-sm-12">
-                     <a href="MyProducts.php" id="navbar"><i class="fa fa-leaf" aria-hidden="true"></i><label>My Products</label></a>
-                </div>
-                <div class="col-md-3 col-sm-12">
-                     <a href="Transactions.php" id="navbar"><i class="fa fa-exchange" aria-hidden="true"></i><label>My Transactions</label></a>
-                </div>
-                <div class="col-md-3 col-sm-12">
-                     <a href="CallCenter.php" id="navbar"><i class="fa fa-phone fa-rotate-vertical" aria-hidden="true"></i><label>Call Centers/SMS</label></a>
-                </div>
-           </div>
-           <hr>
-
-           <div class="container caros">
-                <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                     <div class="carousel-inner">
-                          <div class="carousel-item active">
-                               <img class="d-block w-100 resizing" src="../Images/Homepage/fruitsbasket.jpg" alt="First slide">
-                          </div>
-                          <div class="carousel-item">
-                               <img class="d-block w-100 resizing" src="../Images/Website/farm1.jpeg" alt="Third slide">
-                          </div>
-                          <div class="carousel-item">
-                               <img class="d-block w-100 resizing" src="../Images/Homepage/vegetables.jpg" alt="Second slide">
-                          </div>
-
-                     </div>
-                     <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Previous</span>
-                     </a>
-                     <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                          <span class="sr-only">Next</span>
-                     </a>
-                </div>
-           </div>
-
-           <br><br>
-           <div class="features container">
+          
+           <!-- <div class="features container">
                 <h1 style="font-weight: bold;color:black; text-align:center">Standout Features</h1>
                 <div class="card-deck row text-center" style="display: flex; flex-wrap: wrap;">
                      <div class="card">
@@ -1016,20 +1241,104 @@
                                <h5 class="card-text">Get in touch with other farmers making your own community where you can ask for help</h5>
                           </div>
                      </div>
+            </div>
+           </div>  -->
+
+           <section class="we-offer-area text-center bg-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="site-heading text-center">
+                        <h2> <span> What we Offer</span></h2>
+                        <h4>We Cultivate Excellence</h4>
+                    </div>
                 </div>
-           </div>
-           </div>
+            </div>
+                <div class="row our-offer-items less-carousel">
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-pen-fancy"></i>
+                            <h4>Agri Education</h4>
+                            <p>
+                            Provide access to educational resources  such as  training courses.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-dharmachakra"></i>
+                            <h4>Schemes and subsidies</h4>
+                            <p>
+                                Encourage various aspects of subsidies .
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-tasks"></i>
+                            <h4>Online marketplace</h4>
+                            <p>
+                                Provide a great Platform for farmers and buyers to sell and buy.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-tachometer-alt"></i>
+                            <h4>Agri consultation</h4>
+                            <p>
+                            offer  services to help farmers increase  yields, improve soil fertility... 
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-recycle"></i>
+                            <h4>Real time data Update</h4>
+                            <p>
+                                Real time data is updated here with zero errors.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+
+                    <!-- Single Item -->
+                    <div class="col-md-4 col-sm-6 equal-height">
+                        <div class="item">
+                            <i class="fas fa-headset"></i>
+                            <h4>24/7 Support</h4>
+                            <p>
+                               We Provide 24*7 support with our helpline.
+                            </p>
+                        </div>
+                    </div>
+                    <!-- End Single Item -->
+                </div>
+        </div>
+    </section> 
+
+
+     
+
+
+
            <br> <br>
            <section id="footer" class="myfooter">
                 <div class="container">
-                     <div class="row text-center text-xs-center text-sm-left text-md-left">
-                          <div class="col aligncenter">
-                               <br>
-                               <h5>Payment Option</h5>
-                               <img src="../Images/Website/paytm1.jpg" alt="paytm">
-                               <img src="../Images/Website/cod.jpg" alt="paytm" style="height:37px">
-                          </div>
-                     </div>
+                  
                      <div class="row">
                           <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
                                <ul class="list-unstyled list-inline social text-center">
@@ -1044,8 +1353,8 @@
                      </div>
                      <div class="row">
                           <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
-                               <p><u><a href="https://www.agrocraft.com/">AgroCraft Corporation</a></u> is a Multitrading Company for farmers ang traders</p>
-                               <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Agrotech</a></p>
+                              
+                               <p class="h6">Copy All right Reversed.<a class="text-green ml-2" href="https://www.google.com" target="_blank">Seed</a></p>
                           </div>
                           </hr>
                      </div>
